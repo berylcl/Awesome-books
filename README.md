@@ -1,5 +1,5 @@
 # Awesome-books
-> This is a simple html page which is contains a dynamic form about Awessom books, books title, and the author. I have used HTML and Javascript for this project and you can use it in your local machine just by cloning this repo.
+> This is a simple html page which is contains a dynamic form about Awessom books, books title, and the author. I have used HTML, CSS and Javascript for this project and you can use it in your local machine just by cloning this repo.
 
 
 ## 🖥️ Live Demo
@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-You must have a browser on your device, a visual code, a git version installed and clone the repo from GitHub and use it.
+You must have a browser on your device, a text editor, a git version installed and clone the repo from GitHub and use it.
 
 ### Usage
 
