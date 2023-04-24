@@ -116,18 +116,26 @@ const dateTime = document.getElementById('time-date');
 
 function updateTime() {
   const date = new Date();
-  const myDay = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  const dayOfWeek = date.getDay();
   const dayOfMonth = date.getDate();
-  const month = date.getMonth() + 1;
+  const month = date.toLocaleString('default', { month: 'long' });
   const year = date.getFullYear();
   const hour = date.getHours();
   const minutes = date.getMinutes();
 
-  dateTime.textContent = `${myDay[dayOfWeek]} Apr ${dayOfMonth}, ${year} ${hour}:${minutes}`;
+  // Add appropriate suffix to dayOfMonth
+  let suffix;
+  if (dayOfMonth === 1 || dayOfMonth === 21 || dayOfMonth === 31) {
+    suffix = 'st';
+  } else if (dayOfMonth === 2 || dayOfMonth === 22) {
+    suffix = 'nd';
+  } else if (dayOfMonth === 3 || dayOfMonth === 23) {
+    suffix = 'rd';
+  } else {
+    suffix = 'th';
+  }
+
+  dateTime.textContent = `${month} ${dayOfMonth}${suffix}, ${year} ${hour}:${minutes}`;
 }
 
 updateTime();
 setInterval(updateTime, 1000);
-
-

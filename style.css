@@ -18,12 +18,16 @@ header {
 }
 
 h1 {
+  padding: 30px 0;
+  font-size: 60px;
+  text-align: center;
   color: #03045e;
 }
 
 p {
   color: #03045e;
 }
+
 nav {
   width: 90%;
   min-height: 50px;
@@ -56,10 +60,6 @@ a:hover {
   color: lightskyblue;
 }
 
-.navul li {
-  color: #0a1128;
-}
-
 #now.active {
   color: #075bf8;
 }
@@ -87,13 +87,6 @@ a:hover {
 #logo {
   font-size: 25px;
   font-weight: 700;
-  color: #03045e;
-}
-
-h1 {
-  padding: 30px 0;
-  font-size: 60px;
-  text-align: center;
   color: #03045e;
 }
 
