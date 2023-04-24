@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Awesome Books</title>
+    <title>Awesome books</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Awesome Books Collection</h1>
-<div id="book-list"></div>
-<p>Add a New Book</p>
-<form id="add-book-form">
-    <input type="text" id="title-input" placeholder="Title" required><br>
-    <input type="text" id="author-input" placeholder="Author" required><br>
-    <button type="submit">Add</button>
-</form>
-
+<main>
+    <header>
+        <nav>
+            <a id="logo" href="./index.html">Awesome Books</a>
+            <ul class="navul">
+                <li><a id="now" class="navitem" href="#">List</a></li>
+                <li><a id="go" class="navitem" href="#">Add New</a></li>
+                <li><a id="then" class="navitem" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="time-date"></div>
+    <section id="read" class="start" >
+        <h1>All awesome books</h1>
+        <div id="books">
+        </div>
+    </section>
+    <section id="add-new" class="add">
+        <h1>Add a new book</h1>
+        <form>
+            <input type="text" class="field" placeholder="Title">
+            <input type="text" class="field" placeholder="Author">
+            <button type="button" id="btn">Add</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h1>Contact information</h1>
+        <div class="contact-info">
+            <p>
+                Do you have any question or you want to say 'hello'? <br>
+                You can reach out to us.
+            </p>
+            <ul>
+                <li>Our Email: <span>gakiiberyl@gmailcom</span> and <span>unorjikingsley@gmail.com </span></li>
+                <li>Our Phone : +2348139050845 </li>
+                <li>Our address:  Lagos, Nigeria	</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="copy-right">
+            Copyright
+        </div>
+    </footer>
+</main>
 <script src="app.js"></script>
 </body>
 </html>
