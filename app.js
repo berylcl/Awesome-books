@@ -20,6 +20,27 @@ class BookCollection {
     });
   }
 
+  addBook() {
+    const title = this.titleInput.value.trim();
+    const author = this.authorInput.value.trim();
+
+    if (title && author) {
+      this.books.push({ title, author });
+      localStorage.setItem('books', JSON.stringify(this.books));
+
+      this.titleInput.value = '';
+      this.authorInput.value = '';
+
+      this.renderBooks();
+    }
+  }
+
+  removeBook(book) {
+    this.books = this.books.filter((b) => b !== book);
+    localStorage.setItem('books', JSON.stringify(this.books));
+    this.renderBooks();
+  }
+
   renderBooks() {
     this.bookList.innerHTML = '';
 
@@ -46,27 +67,6 @@ class BookCollection {
       li.appendChild(removeButton);
       this.bookList.appendChild(li);
     });
-  }
-
-  addBook() {
-    const title = this.titleInput.value.trim();
-    const author = this.authorInput.value.trim();
-
-    if (title && author) {
-      this.books.push({ title, author });
-      localStorage.setItem('books', JSON.stringify(this.books));
-
-      this.titleInput.value = '';
-      this.authorInput.value = '';
-
-      this.renderBooks();
-    }
-  }
-
-  removeBook(book) {
-    this.books = this.books.filter((b) => b !== book);
-    localStorage.setItem('books', JSON.stringify(this.books));
-    this.renderBooks();
   }
 }
 

@@ -66,7 +66,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: Git VS code
+In order to run this project you need: Github account, and a code editor(VS-code)
 
 ### Setup
 
