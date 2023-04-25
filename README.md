@@ -54,7 +54,7 @@ This project built with the help of HTML and JavaScript.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://berylcl.github.io/Awesome-books/)
+- [Live Demo Link](https://berylcl.github.io/awesome/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
