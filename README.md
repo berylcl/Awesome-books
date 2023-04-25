@@ -58,44 +58,30 @@ This project built with the help of HTML and JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
+**This project is part of a training series to highlight the need for proper documentation, best practices, and writing clean codes with html, css and Javascript.**
 ### Prerequisites
-
-In order to run this project you need: Github account, and a code editor(VS-code)
+- Have an IDE installed on your computer to be able to view the code locally.
+- Have a good working knowledge of Git and Github.
 
 ### Setup
-
-Clone this repository to your desired folder: git clone https://github.com/berylcl/Awesome-books.git
-
-
+- Open a command line terminal (Git bash preferrably) and navigate to a directory where you would like to save the work folder using cd.
+- Clone the repository with git clone git clone https://github.com/berylcl/Awesome-books.git
+- To get the cuurent working tree, git fetch --all, then checkout to classes-awesome-books branch.
+- Finally, display the content of the index.html by running a live server or by just opening the file using a web browser.
 
 ### Install
-
-Install this project with:git clone https://github.com/berylcl/Awesome-books.git
+- IDE preferrably WebStorm
 
 ### Usage
-
-To run the project, execute the following command: Run the index.html file with Google Chrome
-### Run tests
-
-To run tests, run the following command:
-
+- For any individual who wishes to practice basic HTML,CSS and Javascript
+- For practice of HTML5, CSS and Jvascript technologies.
 ### Deployment
 
 You can deploy this project using:git pages
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
-
-## Authors
 👤 **Unorji Kingsley**
 - GitHub: [@unorjikingsley](https://github.com/unorjikingsley)
 
