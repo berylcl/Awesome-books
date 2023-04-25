@@ -1,10 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 3%;
+  text-align: center;
 }
 
 #add-book-form {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #add-book-form input[type="text"] {
@@ -23,7 +25,7 @@ body {
   background-color: #7b2ea8;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  margin-left: 18%;
 }
 
 .book-title {
@@ -63,8 +65,17 @@ p {
 #book-list {
   border: 2px solid #1f1e1e;
   width: 35%;
+  text-align: center;
+  margin-left: 30%;
 }
 
 #book-list li:nth-child(even) {
   background-color: #ccc;
+}
+
+h1 {
+  color: #03045e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
